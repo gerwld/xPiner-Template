@@ -265,16 +265,19 @@ h3 {
   border: none;
   border-radius: 0 5px 5px 0;
   transition: 0.2s;
+  -webkit-appearance: none;
 }
 
 .email-subscribtion button[type="submit"]:hover {
   outline: 0;
   background-color: #f0f3ff;
+  -webkit-appearance: none;
 }
 
 .email-subscribtion button[type="submit"]:focus {
   outline: 0;
   background-color: #d0d9ff;
+  -webkit-appearance: none;
 }
 .subtext-sub {
   display: block;
