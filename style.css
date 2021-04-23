@@ -6,7 +6,7 @@ html, body {
 body {
   font-family: "Aileron", sans-serif;
   font-size: 16px;
-  min-width: 1350px;
+  min-width: 1320px;
 }
 
 .content-wrapper {
@@ -27,6 +27,7 @@ body {
 }
 
 p {
+  font-weight: 400;
   color: #54565A;
 }
 
@@ -43,7 +44,7 @@ h2 {
 }
 
 h3 {
-  font-size: 34px;
+  font-size: 24px;
   font-weight: 700;
   color: #2C2E30;
 }
@@ -255,6 +256,7 @@ h3 {
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: pointer;
   color: #2F5BEA;
   background-color: #fff;
   border: none;
@@ -277,4 +279,53 @@ h3 {
 
   font-size: 14px;
   color: #C5D0E6;
+}
+
+.main-benefits {
+  display: block;
+  min-height: 480px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.pre-title {
+  text-transform: uppercase;
+  color: #7E8085;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main-benefits h2 {
+  margin: 20px 0 40px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 140%;
+  color: #2C2E30;
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits-item {
+  position: relative;
+  width: 350px;
+  text-align: left;
+  color: #54565A;
+  line-height: 150%;
+}
+
+.mrk-blue {
+  color: #2F5BEA;
+}
+
+.benefits-item img {
+  position: absolute;
+  left: 0;
+  top: 18px;
+}
+
+.benefits-item h3 {
+  margin-left: 45px;
 }

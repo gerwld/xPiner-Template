@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>b-meeting</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.2520773%" id="linearGradient-1">
+            <stop stop-color="#1862E1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-v2" transform="translate(-785.000000, -1290.000000)">
+            <g id="WHY" transform="translate(404.000000, 1081.000000)">
+                <g id="1-copy-3" transform="translate(380.000000, 209.000000)">
+                    <g id="b-meeting" transform="translate(2.000000, 0.000000)">
+                        <polygon id="Path" fill="url(#linearGradient-1)" opacity="0.537202381" points="37 0 16 0 16 18 23.875 12 37 12"></polygon>
+                        <polygon id="Path-Copy-2" stroke="#111111" stroke-width="2" stroke-linecap="square" points="32 2 14 2 14 18 20.75 12.6666667 32 12.6666667"></polygon>
+                        <path d="M14,33.254 C14,32.348 13.5885556,31.48625 12.852,30.923 C11.7273333,30.062 9.77666667,29 7,29 C4.22333333,29 2.27266667,30.062 1.148,30.923 C0.411444444,31.48625 0,32.348 0,33.254 L0,35 L14,35 L14,33.254 Z" id="Path" stroke="#111111" stroke-width="2" stroke-linecap="square"></path>
+                        <circle id="Oval" stroke="#111111" stroke-width="2" stroke-linecap="square" cx="6.5" cy="21.5" r="3.5"></circle>
+                        <path d="M33,33.254 C33,32.348 32.5885556,31.48625 31.852,30.923 C30.7273333,30.062 28.7766667,29 26,29 C23.2233333,29 21.2726667,30.062 20.148,30.923 C19.4114444,31.48625 19,32.348 19,33.254 L19,35 L33,35 L33,33.254 Z" id="Path" stroke="#111111" stroke-width="2" stroke-linecap="square"></path>
+                        <circle id="Oval" stroke="#111111" stroke-width="2" stroke-linecap="square" cx="26.5" cy="21.5" r="3.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
