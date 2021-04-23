@@ -171,6 +171,7 @@ h3 {
 .list-item {
   position: relative;
   padding: 22px 10px!important;
+  font-size: 16px!important;
 }
 
 .list-item li {
@@ -179,7 +180,6 @@ h3 {
   padding: 15px;
   padding-right: 20px;
 
-  font-size: 18px;
   background-color: #e3e3e3;
   border-bottom: 1px solid #d0d0d0;
 }
