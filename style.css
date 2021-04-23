@@ -50,10 +50,13 @@ h3 {
 }
 
 .site-logo {
-  width: 123px;
-  height: auto;
   padding: 10px;
   transition: 0.4s;
+}
+
+.site-logo img {
+  width: 123px;
+  height: auto;
 }
 
 .site-logo:hover {
@@ -106,7 +109,7 @@ h3 {
 
 .main-nav li,
 .main-nav a,
-.logo a {
+.site-logo a {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
@@ -322,6 +325,8 @@ h3 {
 
 .benefits-item img {
   position: absolute;
+  width: 37px;
+  height: auto;
   left: 0;
   top: 18px;
 }
