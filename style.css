@@ -246,11 +246,13 @@ h3 {
   border-right: 1px solid #E7EAEE;
   border-radius: 5px 0 0 5px;
   box-sizing: border-box;
+  -webkit-appearance: none;
 }
 
 .email-subscribtion input[type="email"]:focus {
   outline: 0;
   background-color: #f0f3ff;
+  -webkit-appearance: none;
 }
 
 .email-subscribtion button[type="submit"] {
