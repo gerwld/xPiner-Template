@@ -247,13 +247,11 @@ h3 {
   border-right: 1px solid #E7EAEE;
   border-radius: 5px 0 0 5px;
   box-sizing: border-box;
-  -webkit-appearance: none;
 }
 
 .email-subscribtion input[type="email"]:focus {
   outline: 0;
   background-color: #f0f3ff;
-  -webkit-appearance: none;
 }
 
 .email-subscribtion button[type="submit"] {
@@ -269,6 +267,7 @@ h3 {
   border-radius: 0 5px 5px 0;
   transition: 0.2s;
   -webkit-appearance: none;
+
 }
 
 .email-subscribtion button[type="submit"]:hover {
@@ -339,4 +338,63 @@ h3 {
 
 .benefits-item h3 {
   margin-left: 45px;
+}
+
+.main-benefits hr {
+  border: 1px solid #E7EAEE;
+  margin: 100px 0;
+}
+
+.video-block {
+  min-height: 415px;
+}
+
+.vid-info {
+  width: 43%;
+}
+
+.vid-info a {
+  text-decoration: none;
+  color: #2C2E30;
+}
+
+.vid-info p {
+  line-height: 190%;
+}
+
+.btn-video {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0;
+  padding-bottom: 5px;
+  margin-top: 45px;
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: 3px solid #2F5BEA;
+}
+
+.btn-video img {
+  width: 18px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.video-block video {
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.video-block video:focus {
+  outline: none;
+}
+
+.video-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-block .pre-title {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
