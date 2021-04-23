@@ -253,7 +253,7 @@ h3 {
   background-color: #f0f3ff;
 }
 
-.email-subscribtion input[type="submit"] {
+.email-subscribtion button[type="submit"] {
   padding: 25px 5px;
   width: 30%;
   font-size: 15px;
@@ -267,12 +267,12 @@ h3 {
   transition: 0.2s;
 }
 
-.email-subscribtion input[type="submit"]:hover {
+.email-subscribtion button[type="submit"]:hover {
   outline: 0;
   background-color: #f0f3ff;
 }
 
-.email-subscribtion input[type="submit"]:focus {
+.email-subscribtion button[type="submit"]:focus {
   outline: 0;
   background-color: #d0d9ff;
 }
