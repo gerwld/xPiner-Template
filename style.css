@@ -110,10 +110,10 @@ h3 {
 .main-nav li,
 .main-nav a,
 .site-logo a,
-.list-item {
+li.list-item {
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 16px!important;
 }
 
 .main-header {
