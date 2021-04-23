@@ -109,7 +109,8 @@ h3 {
 
 .main-nav li,
 .main-nav a,
-.site-logo a {
+.site-logo a,
+.list-item {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
@@ -171,7 +172,6 @@ h3 {
 .list-item {
   position: relative;
   padding: 22px 10px!important;
-  font-size: 16px!important;
 }
 
 .list-item li {
