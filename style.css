@@ -363,6 +363,7 @@ h3 {
 }
 
 .btn-video {
+  position: relative;
   font-size: 18px;
   font-weight: bold;
   padding: 0;
@@ -370,7 +371,23 @@ h3 {
   margin-top: 45px;
   background-color: transparent;
   border-radius: 0;
-  border-bottom: 3px solid #2F5BEA;
+
+}
+
+.btn-video::after{
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: #2F5BEA;
+  transition: 0.4s;
+}
+
+.btn-video:hover::after {
+  width: 20%;
+
 }
 
 .btn-video img {
