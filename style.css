@@ -6,7 +6,7 @@ html, body {
 body {
   font-family: "Aileron", sans-serif;
   font-size: 16px;
-  min-width: 1250px;
+  min-width: 1350px;
 }
 
 .content-wrapper {
@@ -107,7 +107,7 @@ h3 {
 }
 
 .main-header {
-  min-height: 1000px;
+  min-height: 870px;
   box-sizing: border-box;
   background-image: url(img/header-bg.svg);
   background-position: center top;
@@ -196,7 +196,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   width: 518px;
-  margin-top: 170px;
+  margin-top: 135px;
 }
 
 .header-content .slogan {
@@ -207,9 +207,69 @@ h3 {
   font-size: 17px;
   color: #C5D0E6;
   line-height: 180%;
+  margin-bottom: 35px;
+}
+
+.header-content h1 {
+  margin-top: 10px;
+
 }
 
 .header-illustration img {
   width: 650px;
   margin-left: 110px;
+}
+
+.email-subscribtion {
+  width: 450px;
+  font-size: 0;
+}
+
+.email-subscribtion form {
+
+}
+.email-subscribtion input[type="email"] {
+  padding: 25px;
+  width: 70%;
+  font-size: 15px;
+  font-weight: 200;
+  border: none;
+  border-right: 1px solid #E7EAEE;
+  border-radius: 5px 0 0 5px;
+  box-sizing: border-box;
+}
+
+.email-subscribtion input[type="email"]:focus {
+  outline: 0;
+  background-color: #f0f3ff;
+}
+
+.email-subscribtion input[type="submit"] {
+  padding: 25px 5px;
+  width: 30%;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2F5BEA;
+  background-color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  transition: 0.2s;
+}
+
+.email-subscribtion input[type="submit"]:hover {
+  outline: 0;
+  background-color: #f0f3ff;
+}
+
+.email-subscribtion input[type="submit"]:focus {
+  outline: 0;
+  background-color: #d0d9ff;
+}
+.subtext-sub {
+  display: block;
+  margin-top: 16px;
+
+  font-size: 14px;
+  color: #C5D0E6;
 }
