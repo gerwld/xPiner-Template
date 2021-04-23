@@ -242,6 +242,7 @@ h3 {
   width: 70%;
   font-size: 15px;
   font-weight: 200;
+  white-space: nowrap;
   border: none;
   border-right: 1px solid #E7EAEE;
   border-radius: 5px 0 0 5px;
