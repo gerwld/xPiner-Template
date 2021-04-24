@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>book-open-2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Home-v2" transform="translate(-1041.000000, -4229.000000)" stroke="#2F5BEA" stroke-width="2">
+            <g id="SECTION-2" transform="translate(406.000000, 3984.000000)">
+                <g id="1" transform="translate(634.000000, 247.000000)">
+                    <g id="book-open-2" transform="translate(2.000000, 0.000000)">
+                        <polygon id="Path" points="0 0 18 4.95 36 0 36 28.05 18 33 0 28.05"></polygon>
+                        <path d="M6,23 L13,25" id="Path"></path>
+                        <path d="M13,11 L6,9" id="Path"></path>
+                        <path d="M13,18 L6,16" id="Path"></path>
+                        <path d="M30,23 L23,25" id="Path"></path>
+                        <path d="M23,11 L30,9" id="Path"></path>
+                        <path d="M23,18 L30,16" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

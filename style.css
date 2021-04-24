@@ -600,7 +600,7 @@ li.list-item {
 
 .more-than {
   padding-top: 120px;
-  min-height: 1050px;
+  min-height: 850px;
   text-align: center;
 }
 
@@ -610,4 +610,33 @@ li.list-item {
   width: 550px;
   text-align: center;
   margin: 13px auto 70px;
+}
+
+.more-than .main-pic img {
+  width: 540px;
+  float: left;
+  height: auto;
+}
+
+.more-th-blocks {
+  float: right;
+  width: 350px;
+  margin-right: 125px;
+  text-align: left;
+}
+
+.more-th-block {
+  position: relative;
+  line-height: 180%;
+  margin-bottom: 55px;
+}
+
+.more-th-block h3 {
+  margin-left: 50px;
+}
+
+.more-th-block img {
+  position: absolute;
+  top: -5px;
+  left: 0;
 }
