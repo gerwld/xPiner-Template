@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="14px" viewBox="0 0 10 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>triangle-right-17</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-v2" transform="translate(-1209.000000, -2447.000000)" fill="#FFFFFF">
+            <g id="RIGHT" transform="translate(1191.000000, 2429.000000)">
+                <g id="LEFT">
+                    <g id="triangle-right-17" transform="translate(18.000000, 18.000000)">
+                        <path d="M0.4975,0.0585915119 C0.4025,-0.0086700699 0.2765625,-0.0190180056 0.17125,0.0327216727 C0.06625,0.084461351 0,0.189462463 0,0.304202808 L0,13.695649 C0,13.8103893 0.06625,13.9153904 0.17125,13.9671301 C0.215625,13.9890434 0.264375,14 0.3125,14 C0.3778125,14 0.4428125,13.9802172 0.4975,13.9412602 L9.8725,7.24553718 C9.9528125,7.18801483 10,7.09670951 10,6.99992588 C10,6.90314225 9.9528125,6.81183693 9.8725,6.75431458 L0.4975,0.0585915119 Z" id="Path" transform="translate(5.000000, 7.000000) scale(-1, 1) translate(-5.000000, -7.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
