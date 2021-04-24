@@ -6,7 +6,7 @@
     <meta name="description" content="Second Landing Page to grow up my skills in HTML & CSS">
     <link rel="stylesheet" href="style.css">
 
-    <!-- Remove transitions bug when page preload -->
+    <!-- Remove transitions bug in Chrome when page preload -->
     <script>
       $(window).load(function() {
         $("body").removeClass("preload");
@@ -17,7 +17,7 @@
     <header class="main-header">
       <div class="content-wrapper clearfix">
         <div class="site-logo"><a href="#" title="Go to Main page"><img src="img/logo.png" alt="Logotype"></a></div>
-        <nav class="main-nav menu">
+        <nav class="main-nav menu" role="navigation">
           <ul>
             <li><a href="#">Features</a></li>
             <li><a href="#">Pricing</a></li>
@@ -188,6 +188,64 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer"></footer>
+    <footer class="page-footer">
+      <div class="content-wrapper clearfix">
+      <div class="footer-block-1">
+        <div class="footer-logo"><img src="img/footer-logo.svg"></div>
+        <nav class="footer-menu footer-menu-1" role="navigation">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Brand Guidelines</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-menu footer-menu-2" role="navigation">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#">Why xPiner?</a></li>
+            <li><a href="#">Enterprise</a></li>
+            <li><a href="#">Customer Stories</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-menu footer-menu-3" role="navigation">
+          <h4>Resourses</h4>
+          <ul>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+      <div class="footer-block-2">
+        <div class="content-wrapper clearfix">
+          <nav class="menu footer-submenu">
+            <ul>
+              <li><a href="#">Status</a></li>
+              <li><a href="#">Privacy & Terms</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+          <nav class="footer-submenu-2">
+            <ul>
+              <li class="active" id="en-US">English
+                <ul class="choose-lang">
+                  <li id="ru-RU"><a href="#">Русский</a></li>
+                  <li id="fr-FR"><a href="#">French</a></li>
+                  <li id="pl-PL"><a href="#">Polski</a></li>
+                  <li id="uk-UA"><a href="#">Українська</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

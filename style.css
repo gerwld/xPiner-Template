@@ -194,13 +194,10 @@ li.list-item {
   color: #5d5d5d;
 }
 
-.list-item::after {
-  content: "ˬ";
-  font-size: 25px;
+.list-item::after{
+  content: url("img/arrow-down.svg");
   margin-left: 5px;
-  bottom: 0.35em;
-  position: relative;
-  display: inline-block;
+  filter: brightness(100);
 }
 
 .header-content {
@@ -662,4 +659,120 @@ li.list-item {
 
 .try-for-free form {
   margin: 0 auto;
+}
+
+.footer-block-1 {
+  display: grid;
+  grid-template-columns: 1fr 22% 22% 22%;
+  padding: 109px 0;
+}
+
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-menu li > a {
+  color: #54565A;
+  text-decoration: none;
+}
+
+.footer-menu li > a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu li {
+  margin-bottom: 14px;
+}
+
+.footer-logo {
+  margin-top: 21px;
+}
+
+.footer-block-2 {
+  background-color: #F6F8F9;
+  padding: 25px 0;
+}
+
+.footer-submenu {
+  width: 40%;
+  float:left;
+}
+
+.footer-submenu li > a {
+  color: #54565A;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.footer-submenu li > a:hover {
+  color: #e3e3e3;
+}
+
+.footer-submenu li {
+  margin-right: 24px;
+}
+
+.footer-submenu-2 li > ul {
+  display: none;
+}
+
+.footer-submenu-2 ul{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-submenu-2 {
+  float: right;
+  width: 40%;
+}
+
+.footer-submenu-2 li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+.footer-submenu-2 .active:hover ul {
+display: block;
+}
+
+.footer-submenu-2 li > ul {
+  position: absolute;
+  left: -35px;
+  bottom: 40px;
+  padding: 10px;
+  padding-left: 35px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+}
+
+.active {
+  padding-left: 35px;
+}
+
+.footer-submenu-2 li,
+.footer-submenu-2 a {
+  color: #54565A;
+  text-decoration: none;
+}
+
+.footer-submenu-2 li > ul li:hover a {
+  text-decoration: underline;
+}
+
+#en-US::before{
+  content: url("img/lang/en_us.svg");
+  position: absolute;
+  left: -23px;
+}
+
+.active::after{
+  content: url("img/arrow-up.svg");
+  margin-left: 5px;
 }
