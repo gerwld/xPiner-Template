@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1365px" height="583px" viewBox="0 0 1365 583" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-v2" transform="translate(-244.000000, -6074.000000)">
+            <g id="CTA" transform="translate(-2.000000, 6074.000000)">
+                <g id="Group-2">
+                    <g id="Group-3" transform="translate(249.218750, -84.717968)">
+                        <path d="M1010.78125,664.534374 C1013.75781,661.432811 1067.66797,582.296093 1190.84766,584.573436 C1272.96745,586.091666 1328.92188,553.473176 1358.71094,486.717968" id="Path-2" stroke="#FFFFFF" stroke-width="6" opacity="0.0382021949" stroke-linecap="round"></path>
+                        <path d="M0,325.792186 C53.5208333,310.997916 86.3164063,320.943228 98.3867188,355.628124 C116.492188,407.655468 164.019531,379.815624 192.523438,387.085155 C221.027344,394.354686 224.773438,426.952343 227.625,444.549999" id="Path-3" stroke="#FFFFFF" stroke-width="5" opacity="0.100655692" stroke-linecap="round"></path>
+                        <rect id="Rectangle" stroke="#FFFFFF" stroke-width="5" opacity="0.122791109" transform="translate(371.377168, 280.313886) rotate(15.000000) translate(-371.377168, -280.313886) " x="357.877168" y="266.813886" width="27" height="27"></rect>
+                        <polygon id="Rectangle" fill="#FFFFFF" opacity="0.031343006" transform="translate(558.063282, 110.000000) rotate(-30.000000) translate(-558.063282, -110.000000) " points="478.063282 30 638.063282 30 638.063282 190 478.063282 190"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

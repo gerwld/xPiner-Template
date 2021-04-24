@@ -640,3 +640,26 @@ li.list-item {
   top: -5px;
   left: 0;
 }
+
+.try-for-free {
+  padding: 145px 0;
+  text-align: center;
+  display: block;
+  background-color: #2F5BEA;
+  background-image: url("img/bg-subscription.svg");
+}
+
+.try-for-free p {
+  margin-bottom: 45px;
+  color: #C5D0E6;
+  line-height: 190%;
+}
+
+.try-for-free h2 {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.try-for-free form {
+  margin: 0 auto;
+}
