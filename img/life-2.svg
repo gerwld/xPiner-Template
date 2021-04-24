@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="108px" viewBox="0 0 108 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>ICON</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-v2" transform="translate(-1127.000000, -3402.000000)">
+            <g id="FEATURE" transform="translate(0.000000, 2889.000000)">
+                <g id="1-copy-4" transform="translate(975.000000, 457.000000)">
+                    <g id="ICON" transform="translate(152.000000, 56.000000)">
+                        <circle id="Oval" fill="#F0F3FF" cx="54" cy="54" r="54"></circle>
+                        <g id="grid-45" transform="translate(36.000000, 36.000000)" stroke="#2F5BEA" stroke-linecap="square" stroke-width="2">
+                            <rect id="Rectangle" x="0" y="0" width="15" height="15"></rect>
+                            <rect id="Rectangle" x="21" y="0" width="15" height="15"></rect>
+                            <rect id="Rectangle" x="0" y="21" width="15" height="15"></rect>
+                            <rect id="Rectangle" x="21" y="21" width="15" height="15"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

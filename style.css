@@ -329,6 +329,10 @@ li.list-item {
   color: #2F5BEA;
 }
 
+.life-blocks .mrk-blue {
+  display:block;
+}
+
 .benefits-item img {
   position: absolute;
   width: 37px;
@@ -365,7 +369,7 @@ li.list-item {
 
 .btn-video {
   position: relative;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   padding: 0;
   padding-top: 5px;
@@ -380,7 +384,7 @@ li.list-item {
 .btn-video::after{
   content: "";
   position: absolute;
-  bottom: -5px;
+  bottom: -3px;
   left: 0;
   height: 4px;
   width: 100%;
@@ -425,7 +429,7 @@ li.list-item {
 }
 
 .use-mobile-block {
-  background: linear-gradient(to bottom, #2F5BEA, #2F5BEA 85%, #ffffff 85%, #ffffff);
+  background: linear-gradient(to bottom, #2F5BEA, #2F5BEA 85%, #F6F8F9 85%, #F6F8F9);
   border-top: 1px solid #2F5BEA;
   box-sizing: border-box;
   position: relative;
@@ -513,4 +517,96 @@ li.list-item {
 .active-feature {
   display: block;
   margin-top: 70px;
+}
+
+.life-section {
+  display: block;
+  height: 710px;
+  background-image: url(img/bg-life.svg), linear-gradient(to bottom, #F6F8F9, #F6F8F9 85%, #fff 85%, #fff);
+  background-repeat: no-repeat;
+  background-position: center bottom 33%;
+
+  text-align: center;
+  padding-top: 40px;
+}
+
+.life-section h2{
+  margin-top: 25px;
+  margin-bottom: 80px;
+  color: #2C2E30;
+}
+
+.life-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 410px;
+  background-color: #fff;
+  padding: 56px 48px;
+  margin-right: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.14);
+}
+
+.life-block:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.life-block .life-pic {
+  order: -1;
+  margin-bottom: 30px;
+}
+
+.life-block h3 {
+  margin: 0;
+}
+
+.life-block p {
+  line-height: 180%;
+}
+
+.life-blocks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.btn-life,
+.btn-life-1 {
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: 5px solid transparent;
+
+}
+
+.btn-life-1:hover {
+  color: #757575;
+}
+
+.btn-life img,
+.btn-life-1 img {
+  margin-left: 10px;
+}
+
+.btn-life::after{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: #2F5BEA;
+  transition: 0.4s;
+}
+
+.btn-life:hover::after {
+  width: 20%;
 }
