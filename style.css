@@ -40,6 +40,7 @@ h1 {
 h2 {
   font-size: 34px;
   font-weight: 700;
+  line-height: 150%;
   color: #2C2E30;
 }
 
@@ -304,14 +305,6 @@ li.list-item {
   font-weight: bold;
 }
 
-.main-benefits h2 {
-  margin: 20px 0 40px;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 140%;
-  color: #2C2E30;
-}
-
 .benefits-list {
   display: flex;
   justify-content: space-between;
@@ -530,12 +523,6 @@ li.list-item {
   padding-top: 40px;
 }
 
-.life-section h2{
-  margin-top: 25px;
-  margin-bottom: 80px;
-  color: #2C2E30;
-}
-
 .life-block {
   display: flex;
   flex-direction: column;
@@ -609,4 +596,18 @@ li.list-item {
 
 .btn-life:hover::after {
   width: 20%;
+}
+
+.more-than {
+  padding-top: 120px;
+  min-height: 1050px;
+  text-align: center;
+}
+
+.main-benefits h2,
+.life-section h2,
+.more-than h2 {
+  width: 550px;
+  text-align: center;
+  margin: 13px auto 70px;
 }
