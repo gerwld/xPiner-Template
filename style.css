@@ -831,7 +831,7 @@ display: block;
   content: url("img/lang/fr_FR.svg");
 }
 
-.active::after{
+.footer-submenu-2 .active::after{
   content: url("img/arrow-up.svg");
   margin-left: 5px;
 }
@@ -854,4 +854,8 @@ display: block;
 
 .social-items a img:hover {
   opacity: 0.8;
+}
+
+.features-list li {
+  cursor: pointer;
 }
