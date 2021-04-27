@@ -691,7 +691,9 @@ li.list-item {
 }
 
 .footer-block-1 {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 22% 22% 22%;
   grid-template-columns: 1fr 22% 22% 22%;
   padding: 109px 0;
 }
