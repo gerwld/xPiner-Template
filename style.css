@@ -6,6 +6,7 @@ html, body {
 body {
   font-family: "Aileron", sans-serif;
   font-size: 16px;
+  min-height: 600px;
 }
 
 .content-wrapper {
@@ -932,6 +933,7 @@ and (max-device-width : 600px) {
 
   p {
     font-size: 25px;
+    line-height: 140%;
   }
 
   .subtext-sub {
@@ -986,7 +988,7 @@ and (max-device-width : 600px) {
     width: 105%;
   }
 
-  .try-for-free > .email-subscribtion {
+  .try-for-free .email-subscribtion {
     margin-left: -2.5%;
   }
 
