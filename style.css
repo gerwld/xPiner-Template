@@ -202,7 +202,7 @@ li.list-item {
 
 .header-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   -ms-align-items: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -879,7 +879,7 @@ display: block;
 
 
 @media only screen
-and (max-device-width : 1100px) {
+and (max-device-width : 1150px) {
   .main-header > *{
     width: 95%;
   }
@@ -914,4 +914,121 @@ and (max-device-width : 1100px) {
   .mobile-prewiew img {
     width: 300px;
   }
+}
+
+@media only screen
+and (max-device-width : 600px) {
+  body {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 26px;
+  }
+
+  h1.slogan {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 39px;
+  }
+
+  .header-content p {
+    font-size: 26px;
+  }
+
+  .content-wrapper {
+    width: 850px;
+  }
+
+  .site-logo img {
+    width: 300px;
+    padding-top: 50px;
+  }
+
+  .main-nav,
+  .main-header .site-logo {
+  float: none;
+  }
+
+  .site-logo {
+    margin-top: 0;
+  }
+
+  .main-nav li, .main-nav a, .site-logo a, li.list-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px!important;
+}
+  .btn-get-start {
+    font-size: 26px;
+  }
+
+  .header-content .slogan {
+    width: auto;
+  }
+  .header-info {
+    flex-basis: 90%;
+  }
+
+  .email-subscribtion {
+    padding: 20px 0;
+    width: 105%;
+  }
+
+  .try-for-free > .email-subscribtion {
+    margin-left: -2.5%;
+  }
+
+  .button {
+    font-size: 26px;
+  }
+
+  .email-subscribtion > *{
+    font-size: 26px!important;
+  }
+
+  .email-subscribtion input[type="email"] {
+    padding: 45px 35px;
+  }
+
+  .email-subscribtion button[type="submit"] {
+    padding: 45px 5px;
+  }
+
+  .benefits-list,
+  .video-block {
+    flex-wrap: wrap;
+  }
+
+  .benefits-item {
+    flex-basis: 90%;
+    padding-bottom: 40px;
+  }
+
+  .video-block video,
+  .vid-info {
+    flex-basis: 100%;
+    height: auto;
+  }
+
+  .video-block video {
+    order: -1;
+  }
+
+  .vid-info {
+    margin-top: 20px;
+  }
+
+  .use-mobile-block {
+    display: none;
+  }
+
+  .pre-title {
+    font-size: 23px;
+  }
+
+  .more-than {
+    padding: 300px 0;
 }
