@@ -228,13 +228,8 @@ li.list-item {
 
 }
 
-.header-illustration > img {
-  flex-basis: 500px;
-  height: auto;
-}
-
 .header-illustration {
-  width: 50%;
+  width: 430px;
   height: auto;
 }
 
