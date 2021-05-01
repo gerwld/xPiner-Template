@@ -203,6 +203,8 @@ li.list-item {
 .header-content {
   display: flex;
   justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: 135px;
 }
