@@ -930,13 +930,21 @@ and (max-device-width : 600px) {
     font-size: 37px;
   }
 
+  p {
+    font-size: 25px;
+  }
+
+  .subtext-sub {
+    font-size: 22px;
+  }
+
   .more-th-block {
     line-height: 150%;
     margin-bottom: 70px;
   }
 
   .header-content p {
-    font-size: 26px;
+    font-size: 33px;
   }
 
   .content-wrapper {
@@ -960,10 +968,10 @@ and (max-device-width : 600px) {
   .main-nav li, .main-nav a, .site-logo a, li.list-item {
     color: #fff;
     text-decoration: none;
-    font-size: 26px!important;
+    font-size: 33px!important;
 }
   .btn-get-start {
-    font-size: 26px;
+    font-size: 33px;
   }
 
   .header-content .slogan {
@@ -984,6 +992,11 @@ and (max-device-width : 600px) {
 
   .button {
     font-size: 26px;
+  }
+
+  .try-for-free p {
+    font-size: 21px;
+    line-height: 220%;
   }
 
   .email-subscribtion > *{
@@ -1032,6 +1045,7 @@ and (max-device-width : 600px) {
 
   .life-section {
     padding-top: 80px;
+    margin-bottom: 50px;
     height: 800px;
     background-position: center bottom 28%;
 }
@@ -1077,7 +1091,7 @@ and (max-device-width : 600px) {
 
 
   .footer-submenu-2 {
-    margin-top: 20px;
+    margin-top: 50px;
     padding-left: 30px;
   }
 
@@ -1087,6 +1101,10 @@ and (max-device-width : 600px) {
   .more-th-blocks{
     width: 90%;
     margin-bottom: 35px;
+  }
+
+  .main-benefits h2, .life-section h2, .more-than h2 {
+    width: 650px;
   }
 
 }
