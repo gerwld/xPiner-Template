@@ -231,6 +231,8 @@ li.list-item {
 }
 
 .header-illustration {
+  -ms-align-items: flex-start;
+  align-items: flex-start;
   width: 430px;
   height: auto;
 }
