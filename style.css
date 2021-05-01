@@ -907,4 +907,7 @@ and (max-device-width : 1100px) {
   .header-illustration {
     width: 500px;
   }
+  .mobile-prewiew img {
+    width: 300px;
+  }
 }
