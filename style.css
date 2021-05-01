@@ -927,11 +927,12 @@ and (max-device-width : 600px) {
   }
 
   h2 {
-    font-size: 39px;
+    font-size: 37px;
   }
 
-  p {
-    line-height: normal!important;
+  .more-th-block {
+    line-height: 150%;
+    margin-bottom: 70px;
   }
 
   .header-content p {
@@ -1083,6 +1084,8 @@ and (max-device-width : 600px) {
   .social-items img {
     width: 65px;
   }
-
+  .more-th-blocks{
+    width: 90%;
+  }
 
 }
