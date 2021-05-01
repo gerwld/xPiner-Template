@@ -690,8 +690,11 @@ li.list-item {
 }
 
 .try-for-free p {
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 45px;
   color: #C5D0E6;
+  width: 500px;
   line-height: 190%;
 }
 
@@ -997,7 +1000,8 @@ and (max-device-width : 600px) {
   }
 
   .try-for-free p {
-    font-size: 21px;
+    font-size: 26px;
+    width: 800px;
     line-height: 220%;
   }
 
