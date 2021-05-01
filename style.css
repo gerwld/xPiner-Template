@@ -973,10 +973,10 @@ and (max-device-width : 600px) {
   .main-nav li, .main-nav a, .site-logo a, li.list-item {
     color: #fff;
     text-decoration: none;
-    font-size: 33px!important;
+    font-size: 36px!important;
 }
   .btn-get-start {
-    font-size: 33px;
+    font-size: 36px;
   }
 
   .header-content .slogan {
@@ -997,6 +997,10 @@ and (max-device-width : 600px) {
 
   .button {
     font-size: 26px;
+  }
+
+  .btn-get-start {
+    padding: 27px 32px;
   }
 
   .try-for-free p {
