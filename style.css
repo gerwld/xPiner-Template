@@ -1086,6 +1086,7 @@ and (max-device-width : 600px) {
   }
   .more-th-blocks{
     width: 90%;
+    margin-bottom: 35px;
   }
 
 }
