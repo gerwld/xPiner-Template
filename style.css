@@ -233,7 +233,7 @@ li.list-item {
 .header-illustration {
   -ms-align-self: flex-start;
   align-self: flex-start;
-  width: 40%;
+  width: 580px;
   height: auto;
 }
 
@@ -902,5 +902,9 @@ and (max-device-width : 1100px) {
 
   .mobile-layout {
     width: 950px;
+  }
+
+  .header-illustration {
+    width: 500px;
   }
 }
