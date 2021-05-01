@@ -6,11 +6,10 @@ html, body {
 body {
   font-family: "Aileron", sans-serif;
   font-size: 16px;
-  min-width: 1320px;
 }
 
 .content-wrapper {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -203,10 +202,15 @@ li.list-item {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
-  width: 518px;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-top: 135px;
 }
+
+.header-info {
+  flex-basis: 500px;
+}
+
 
 .header-content .slogan {
   width: 450px;
@@ -224,9 +228,14 @@ li.list-item {
 
 }
 
-.header-illustration img {
-  width: 650px;
-  margin-left: 110px;
+.header-illustration > img {
+  flex-basis: 500px;
+  height: auto;
+}
+
+.header-illustration {
+  width: 50%;
+  height: auto;
 }
 
 .email-subscribtion {
@@ -346,7 +355,7 @@ li.list-item {
 }
 
 .vid-info {
-  width: 43%;
+  flex-basis: 39%;
 }
 
 .vid-info a {
@@ -406,6 +415,7 @@ li.list-item {
 .video-block {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .video-block .pre-title {
@@ -639,15 +649,13 @@ li.list-item {
 }
 
 .more-than .main-pic img {
-  width: 540px;
-  float: left;
+  max-width: 540px;
   height: auto;
 }
 
 .more-th-blocks {
-  float: right;
-  width: 350px;
-  margin-right: 125px;
+  max-width: 350px;
+  margin-left: 4%;
   text-align: left;
 }
 
@@ -665,6 +673,11 @@ li.list-item {
   position: absolute;
   top: -5px;
   left: 0;
+}
+
+.more-th-grid {
+  display: flex;
+  justify-content: center;
 }
 
 .try-for-free {
@@ -860,4 +873,35 @@ display: block;
 
 .features-list li {
   cursor: pointer;
+}
+
+
+/* mobile styles & viewport */
+
+
+@media only screen
+and (device-width : 1100px) {
+  .main-header > *{
+    width: 95%;
+  }
+
+  .header-info {
+    flex-basis: 450px;
+  }
+
+  .main-benefits .benefits-list,
+  .main-benefits hr,
+  .video-block {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content-wrapper {
+    max-width: 950px;
+  }
+
+  .mobile-layout {
+    width: 950px;
+  }
 }
