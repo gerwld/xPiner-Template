@@ -26,6 +26,7 @@ body {
 }
 
 p {
+  font-size: 16px;
   font-weight: 400;
   color: #54565A;
 }
@@ -653,7 +654,7 @@ li.list-item {
 }
 
 .more-th-blocks {
-  max-width: 350px;
+  flex-basis: 350px;
   margin-left: 4%;
   text-align: left;
 }
@@ -743,7 +744,6 @@ transition: 0.4s;
 }
 
 .footer-submenu {
-  width: 45%;
   float:left;
 }
 
@@ -922,10 +922,6 @@ and (max-device-width : 600px) {
     font-size: 26px;
   }
 
-  p {
-    font-size: 26px;
-  }
-
   h1.slogan {
     font-size: 80px;
   }
@@ -1026,9 +1022,63 @@ and (max-device-width : 600px) {
   }
 
   .pre-title {
-    font-size: 23px;
+    font-size: 24px!important;
   }
 
-  .more-than {
-    padding: 300px 0;
+  .life-section {
+    padding-top: 80px;
+    height: 800px;
+    background-position: center bottom 28%;
+}
+  .more-th-grid {
+      flex-direction: column;
+  }
+
+  .more-than .main-pic img {
+    max-width: 100%;
+  }
+  .main-pic {
+    order: 1;
+  }
+
+  .footer-logo {
+    order: 1;
+    margin-left: auto;
+  }
+
+  .footer-block-1 {
+    -ms-grid-columns: 28% 35% 30% 1fr;
+    grid-template-columns: 28% 35% 30% 1fr;
+  }
+
+  .footer-menu li {
+    margin-bottom: 35px;
+  }
+
+  .footer-block-1 h4 {
+    font-size: 35px;
+  }
+
+  .footer-menu-1 li {
+    margin-bottom: 30px;
+  }
+
+  .footer-submenu,
+  .footer-submenu-2 {
+    float: none;
+    margin: 10px auto;
+    width: fit-content;
+  }
+
+
+  .footer-submenu-2 {
+    margin-top: 20px;
+    padding-left: 30px;
+  }
+
+  .social-items img {
+    width: 65px;
+  }
+
+
 }
