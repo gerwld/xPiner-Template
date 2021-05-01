@@ -905,7 +905,10 @@ and (max-device-width : 1100px) {
   }
 
   .header-illustration {
-    width: 480px;
+    width: 450px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 
   .mobile-prewiew img {
