@@ -930,6 +930,10 @@ and (max-device-width : 600px) {
     font-size: 39px;
   }
 
+  p {
+    line-height: normal!important;
+  }
+
   .header-content p {
     font-size: 26px;
   }
