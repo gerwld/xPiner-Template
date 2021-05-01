@@ -233,7 +233,7 @@ li.list-item {
 .header-illustration {
   -ms-align-self: flex-start;
   align-self: flex-start;
-  width: 430px;
+  width: 40%;
   height: auto;
 }
 
