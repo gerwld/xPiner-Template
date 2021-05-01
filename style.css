@@ -1085,6 +1085,7 @@ and (max-device-width : 600px) {
   }
 
   .footer-block-1 h4 {
+    margin-top: 0;
     font-size: 35px;
   }
 
@@ -1115,6 +1116,16 @@ and (max-device-width : 600px) {
 
   .main-benefits h2, .life-section h2, .more-than h2 {
     width: 650px;
+  }
+
+  .social-items a img {
+    margin-left: 18px;
+  }
+
+  .btn-video,
+  .btn-life,
+  .btn-life-1 {
+    font-size: 29px;
   }
 
 }
