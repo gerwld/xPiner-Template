@@ -1050,7 +1050,7 @@ and (max-device-width : 600px) {
   .video-block video,
   .vid-info {
     flex-basis: 100%;
-    height: auto;
+    height: 100%;
   }
 
   .video-block video {
