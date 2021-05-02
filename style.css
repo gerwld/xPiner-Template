@@ -123,7 +123,7 @@ li.list-item {
   min-height: 870px;
   box-sizing: border-box;
   background-image: url(img/header-bg.svg);
-  background-position: center top;
+  background-position: 50% 99.99999%;
   background-size: cover;
 }
 
@@ -551,7 +551,7 @@ li.list-item {
 
 .life-section {
   display: block;
-  height: 710px;
+  min-height: 710px;
   background-image: url(img/bg-life.svg), linear-gradient(to bottom, #F6F8F9, #F6F8F9 85%, #fff 85%, #fff);
   background-repeat: no-repeat;
   background-position: center bottom 33%;
@@ -1055,7 +1055,7 @@ and (max-device-width : 600px) {
   .life-section {
     padding-top: 80px;
     margin-bottom: 50px;
-    height: 800px;
+
     background-position: center bottom 28%;
 }
   .more-th-grid {
@@ -1124,7 +1124,27 @@ and (max-device-width : 600px) {
   .btn-video,
   .btn-life,
   .btn-life-1 {
-    font-size: 29px;
+    font-size: 31px;
+  }
+
+  .benefits-item h3,
+  .more-th-block h3 {
+    margin-left: 65px;
+    font-size: 38px;
+    margin-top: 20px;
+  }
+
+  .life-block h3 {
+    font-size: 32px;
+  }
+
+  .life-blocks {
+    -ms-align-items: stretch;
+    align-items: stretch;
+  }
+
+  .life-block p {
+    line-height: 140%;
   }
 
 }
