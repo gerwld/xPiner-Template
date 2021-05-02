@@ -412,7 +412,7 @@ li.list-item {
 
 .video-block video {
   border-radius: 10px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .video-block video:focus {
