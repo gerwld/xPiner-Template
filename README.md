@@ -1,4 +1,4 @@
-# xPider-Template
+# xPiner-Template
 Second Landing Page to grow up my skills in HTML &amp; CSS
 
 https://gerwld.github.io/xPiner-Template/
