@@ -5,5 +5,5 @@ Third Landing Page created for grow up my skills in HTML &amp; CSS
 // Contains mobile & tablet version<br>
 // Writed generally on Flexbox<br>
 <br>
-Preview:<br>
+<b>Preview:</b><br>
 https://gerwld.github.io/xPiner-Template/
